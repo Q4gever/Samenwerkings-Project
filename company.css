@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section { 
+	display: block;
+} 
+	
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+} 
+	
+body {
+	width:90%;
+	margin: 0 auto;
+	background-color:rgb(17, 138, 185);
+	font-family: Arial;
+
+	color: rgb(255, 255, 255); 
+	color: grey; 
+	background-color: #435165;
+} 
+
+header{
+	width:95%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+main{
+	width: 90%;
+	margin: 40px auto;
+}
+
+main p {
+	margin: 15px auto;
+	font-size: 150%;
+}
+
+nav{
+	margin: 10px auto;
+}
+	
+nav ul {
+	margin: 0px;
+	padding: 0px; 
+	list-style: none;
+} 
+	
+nav ul li {
+	float: left;
+	width: 150px;
+	height: 30px;
+	background-color: purple;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	margin-right: 2px; 
+  	transition: all 0.5s ease;
+} 
+
+nav ul li a {
+	text-decoration: none;
+	color: yellow;
+	display: block;
+}
+
+nav ul li:hover {
+	background-color: blue;
+}
+
+nav ul li ul li { 
+	display: none;
+	position:relative;
+}
+
+nav ul li:hover ul li {
+	display: block;
+} 
+
+.centreer {
+	text-align: center;
+}
+
+
+
+
+#frm{
+	border: solid gray 1px;
+	width: 20%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background:white ;
+}
+
+#btn{
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 69%;
+}
+
+section.elem-group {
+	margin: 40px 0;
+  }
+  
+  label {
+	display: block;
+	font-family: 'Aleo';
+	padding-bottom: 4px;
+	font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 1.25em;
+	font-family: 'Aleo';
+	width: 500px;
+	padding: 8px;
+  }
+  
+  textarea {
+	height: 250px;
+  }
+  
+  button {
+	height: 50px;
+	background: green;
+	color: white;
+	border: 2px solid darkgreen;
+	font-size: 1.25em;
+	font-family: 'Aleo';
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	border: 2px solid black;
+  }
+
+  
